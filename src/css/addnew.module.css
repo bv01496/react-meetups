@@ -1,0 +1,67 @@
+.addnewform{
+  height: 100vh;
+  width: 91vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px; */
+}
+h1{
+  padding-top: 20px;
+  color: rgb(123, 115, 115);
+}
+.form{
+  padding-left: 5px;
+  padding-right: 20px;
+}
+.input{
+  margin: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: start;
+}
+.input>label{
+  font-weight: 600;
+}
+.input >input,.input >textarea {
+  display: block;
+  width: 350px;
+  height: 30px;
+  border: 1px solid rgb(212, 204, 204);
+  margin-top: 6px;
+  padding-left: 6px;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+.input > input:focus{
+  outline: none;
+}
+.address,.discription{
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+  color: brown;
+  padding: 15px;
+}
+.discription{
+  color: rgb(87, 24, 24);
+}
+.submit{
+  background-color: inherit;
+  width: 140px;
+  height: 40px;
+  border: 1px solid brown;
+  color: brown;
+  font-size: 1em;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.submit:hover{
+  transform: scale(1.07);
+  transition: transform .4s ease-in-out;
+}
+.submit:active{
+  background-color: rgb(193, 88, 88);
+  color: white;
+}

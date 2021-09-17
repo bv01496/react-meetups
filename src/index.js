@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom";
+import {FavoriteContextProvider} from './store/favorites-context';
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
+    <FavoriteContextProvider>
     <App />
+    </FavoriteContextProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

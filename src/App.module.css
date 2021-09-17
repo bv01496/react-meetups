@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 1300px;
+}
+
+.app{
+  background-color: rgb(203, 237, 238);
+  
+}
+
+.navbar{
+  background-color: brown;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 2px 3px 6px grey;
+  /* position: fixed; */
+  top: 0;
+}
+.navbar> *{
+  margin: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo>a{
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+.links{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link>*{
+  font-size: 1.5em;
+  font-weight: 800;
+  text-decoration: none;
+  color: rgb(212, 188, 188);
+}
+.link>*:hover{
+  color: rgb(210, 209, 209);
+}

@@ -1,0 +1,52 @@
+.img{
+  width: 550px;
+  height: 310px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.incard{
+  position: relative;
+}
+.title{
+  white-space: nowrap; 
+  width: 400px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 3px 3px 5px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.4em;
+  font-weight: 800;
+  color: white;
+  position: absolute;
+  top: 230px;
+  left: 15px;
+}
+.address,.discription{
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+  color: brown;
+  padding: 15px;
+}
+.discription{
+  color: rgb(87, 24, 24);
+}
+.addFavorite{
+  background-color: inherit;
+  width: 140px;
+  height: 40px;
+  border: 1px solid brown;
+  color: brown;
+  font-size: 1em;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.addFavorite:hover{
+  transform: scale(1.07);
+  transition: transform .4s ease-in-out;
+}
+.addFavorite:active{
+  background-color: rgb(193, 88, 88);
+  color: white;
+}

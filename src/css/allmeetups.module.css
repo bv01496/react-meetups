@@ -1,0 +1,19 @@
+.allmeetups{
+  /* position: absolute; */
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+  /* color: ; */
+}
+::-webkit-scrollbar-thumb{
+  background-color: brown;
+  border: 1px solid white;
+
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
